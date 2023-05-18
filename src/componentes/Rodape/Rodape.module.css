@@ -1,0 +1,27 @@
+.rodape {
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+  
+
+    &__icones {
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .lucas {
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: #d9d9d9;
+      }
+}
